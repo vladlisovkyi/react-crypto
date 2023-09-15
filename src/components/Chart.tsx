@@ -129,7 +129,7 @@ const Chart = () => {
           />
         ))}
       </div>
-      <div>
+      <div className="mt-8">
         {loading ? (
           <Loader />
         ) : (
